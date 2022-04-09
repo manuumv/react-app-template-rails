@@ -14,7 +14,6 @@ module.exports = {
       reducers: path.join(basePath, 'src/reducers'),
       model: path.join(basePath, 'src/model'),
       containers: path.join(basePath, 'src/containers'),
-      store: path.join(basePath, 'src/store'),
       styles: path.join(basePath, 'src/styles'),
     },
     extensions: ['.js', '.ts', '.tsx']

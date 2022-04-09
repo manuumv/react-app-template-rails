@@ -1,5 +1,5 @@
 import { CountState } from 'model/countState';
-import { ReduxState } from 'store/reduxState';
+import { ReduxState } from 'core/model/reduxState';
 import { countInitialState } from './count.reducer';
 import { selectCountState } from './count.selectors';
 

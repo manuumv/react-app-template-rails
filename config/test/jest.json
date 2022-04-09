@@ -14,7 +14,6 @@
     "^reducers/(.*)$": "<rootDir>/src/reducers/$1",
     "^model/(.*)$": "<rootDir>/src/model/$1",
     "^containers/(.*)$": "<rootDir>/src/containers/$1",
-    "^store/(.*)$": "<rootDir>/src/store/$1",
     "^styles/(.*)$": "<rootDir>/src/styles/$1"
   }
 }

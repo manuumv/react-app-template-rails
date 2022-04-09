@@ -23,7 +23,6 @@
       "reducers": ["./reducers/*"],
       "model": ["./model/*"],
       "containers": ["./containers"],
-      "store": ["./store/*"],
       "styles": ["./styles/*"],
     }
   },
@@ -31,5 +30,5 @@
   "exclude": [
     "node_modules",
   ],
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "./.storybook/**/*", "./typings/**/*"],
 }

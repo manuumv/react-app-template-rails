@@ -1,6 +1,7 @@
 # REACT APP TEMPLATE RAILS
 
 Rails style structure
+
 ## Installation
 
 Use npm or yarn in order to install everything.

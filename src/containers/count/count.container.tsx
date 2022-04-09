@@ -2,13 +2,12 @@ import * as React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { decreaseCountAction, incrementCountAction } from 'actions/count/count.actions';
-import { selectCountViewModel } from './count.selectors';
-
 import { Button, Container } from './count.styles';
+import { selectCountState } from 'reducers/count/count.selectors';
 
 export const CountContainer: React.VFC = () => {
   const { t } = useTranslation();
-  const countState = useSelector(selectCountViewModel);
+  const countState = useSelector(selectCountState);
   const dispatch = useDispatch();
 
   const onClickIncrement = (event: React.MouseEvent<HTMLButtonElement>): void => {
